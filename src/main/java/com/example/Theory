@@ -1,0 +1,40 @@
+kafka
+
+-->queue  storage
+
+producer --> kafka --> consumer
+
+        zookeeper --> maintain kafka
+
+          server --> topic --> partitions --> offsets --> message
+
+message --> time limits (1 month)
+producer--> message --> data lost --> asyncchronous
+
+server--> multiple servers . one main server and rest are following servers . Data replicate in partition layer .
+ww tell are zoo keeper whixh is our main server.
+
+topic --> multiple topics , to manage fault tolerance . to maintain the balance , so that all the load should not come on one topic .
+
+
+rabbitmq/activeques--> data major priority .
+https://www.simplilearn.com/kafka-vs-rabbitmq-article
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
